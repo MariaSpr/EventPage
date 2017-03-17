@@ -13,3 +13,47 @@ body {
     background-blend-mode: soft-light;
 
 }
+
+/*  ============================= navbar ============================= */
+
+.navbar ul li {
+	
+	font-size:13px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+#navbar ul li>a {
+	transition:all 0.3s ease-in-out;
+}
+
+#navbar ul li>a:hover{
+	color:#ff6d40;
+}
+
+
+.active {
+	color:#ff6d40;
+}
+
+.navbar-brand {
+	font-weight: 600;
+	font-size:25px;
+
+}
+
+.navbar-default .navbar-brand {
+	color:#3f3b3b;
+}
+
+.navbar-brand span {
+	text-transform: lowercase;
+	color:#ff6d40;
+}
+
+.navbar-default {
+	background-color: rgba(255,255,255, 0.9);
+	border-top:5px solid #ff6d40;
+}
+
+
