@@ -4,4 +4,12 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
+	background-image: url(../assets/img/bg_img_2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color:#474746;
+    background-blend-mode: soft-light;
+
 }
